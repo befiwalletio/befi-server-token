@@ -1,0 +1,52 @@
+{
+  "apps": [
+    {
+      "name": "BEE_TOKEN_INFO_2_REDIS",
+      "namespace": "BEE_TOKEN",
+      "script": "./service/tokenInfo.js",
+      "watch": false,
+      "log_date_format": "YYYY-MM-DD HH:mm:ss Z",
+      "ignore_watch" : ["node_modules"],
+      "env": {
+        "NODE_ENV": "production",
+        "watch": false
+      },
+      "env_test": {
+        "NODE_ENV": "test",
+        "watch": true
+      }
+    },
+    {
+      "name": "BEE_TOKEN_PRICE_2_REDIS",
+      "namespace": "BEE_TOKEN",
+      "script": "./service/tokenPrice.js",
+      "watch": false,
+      "log_date_format": "YYYY-MM-DD HH:mm:ss Z",
+      "ignore_watch" : ["node_modules"],
+      "env": {
+        "NODE_ENV": "production",
+        "watch": false
+      },
+      "env_test": {
+        "NODE_ENV": "test",
+        "watch": true
+      }
+    },
+    {
+      "name": "BEE_NFT_PRICE_2_REDIS",
+      "namespace": "BEE_TOKEN",
+      "script": "./service/nftPriceFloor.js",
+      "watch": false,
+      "log_date_format": "YYYY-MM-DD HH:mm:ss Z",
+      "ignore_watch" : ["node_modules"],
+      "env": {
+        "NODE_ENV": "production",
+        "watch": false
+      },
+      "env_test": {
+        "NODE_ENV": "test",
+        "watch": true
+      }
+    }
+  ]
+}

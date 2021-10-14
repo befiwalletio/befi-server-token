@@ -1,0 +1,7 @@
+.idea
+node_modules
+
+*.lock
+*.log
+package-lock.json
+test.js
