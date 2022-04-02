@@ -3,7 +3,7 @@
 ![image](https://img.shields.io/badge/author-BeeFinance-green.svg)
 
 
-##### Used to enter Token information and price for BeeFinance
+##### Used to enter Token information and price for BeFi
 
 ---
 
