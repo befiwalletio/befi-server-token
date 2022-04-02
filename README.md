@@ -1,6 +1,6 @@
-#  BeeFinance Token Service
+#  BeFi Wallet Token Service
 ![image](https://img.shields.io/badge/license-Apache2.0-blue.svg)
-![image](https://img.shields.io/badge/author-BeeFinance-green.svg)
+
 
 
 ##### Used to enter Token information and price for BeFi
